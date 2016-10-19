@@ -39,7 +39,7 @@ public class AddBookToCart extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
 		HttpSession session = request.getSession(false);//获得一个session对象
-		RequestDispatcher dispatcher; //准备好转发器,跳转用
+		RequestDispatcher dispatcher; //准备好转发器,跳转用1
 		
 		// 如果session不存在，转向 book3.jsp
 		if (session == null) {// 如果session不存在
