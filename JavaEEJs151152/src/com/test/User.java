@@ -25,7 +25,8 @@ public class User {
 	}
 	
     public boolean YanZheng() {
-    	if(userName.equals())
+		return false;
+    
     	
 	}
 
